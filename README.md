@@ -1,1 +1,1 @@
-# A-thing
+#Awesome Sunshine Ascending Music Player Project
