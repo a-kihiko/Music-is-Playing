@@ -1,0 +1,44 @@
+<html>
+  <head><title>Read, Write, Update Delete Data Firebase JS </title></head>
+
+  <body>
+      Title <input id="titlebox" type="text"> </input> <br><br>
+      Artist <input id="artistsbox" type="text"> </input> <br><br>
+      Path <input id="pathbox" type="text"> </input> <br><br>
+      Num <input id="numbox" type="text"> </input> <br><br>
+      <br><br>
+
+      <button id= "insert">INSERT</button>
+      <button id= "select">SELECT</button>
+      <button id= "update">UPDATE</button>
+      <button id= "delete">DELETE</button>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+
+      <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+      <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>  
+      <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>  
+      <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+     
+
+      <script id = "MainScript">
+        var firebaseConfig = {
+            apiKey: "AIzaSyDgsOGP-k2XGA_vT0X0tsvogs7nGFE_j9M",
+            authDomain: "asa-music-player-ea136.firebaseapp.com",
+            databaseURL: "https://asa-music-player-ea136.firebaseio.com",
+            projectId: "asa-music-player-ea136",
+            storageBucket: "asa-music-player-ea136.appspot.com",
+            messagingSenderId: "485459755881",
+            appId: "1:485459755881:web:ecb56618d3d222d0d133f8",
+            measurementId: "G-SZG2ZZ2HTJ"
+  };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          // firebase.analytics();
+     
+      </script>
+ <script src="main.js"></script>
+
+  </body>
+</html>
