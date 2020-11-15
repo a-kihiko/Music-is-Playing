@@ -2,6 +2,8 @@
 The A.S.A. Music Player is a project created for CIS 472 Software Engineering. The goal of our music player is to create a convenient website where users can listen to music. There are
 several features that have been incorporated and removed from the music player throughout the duration of the project.  A.S.A. music player is a website that allows the users to select a song from genre, search for a song using a search bar, sign up for a membership
 to use the service, sign in for a membership to use the music service. The music playeris also able to  play, pause,scrub, next, and rewind.
+ 
+The code can be run on repl.it 
 
 
 # Code 
